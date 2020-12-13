@@ -16,16 +16,15 @@
     <header class="main-head">
       <nav>
         <h1 id="logo">Saif Newaz</h1>
-        <input type="checkbox" class="menu-check" />
         <ul class="nav-links">
           <li><a href="#about">About</a></li>
-          <li><a href="#work">Work</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="burger">
-          <span></span>
-          <span></span>
-          <span></span>
+          <span class="line1"></span>
+          <span class="line2"></span>
+          <span class="line3"></span>
         </div>
       </nav>
     </header>
@@ -55,6 +54,86 @@
           <img src="/img/plant2.png" class="plant2 plant" />
         </div>
       </section>
+      <section class="about" id="about">
+        <div class="about-image">
+          <h5>MINIMUL</h5>
+          <img src="/img/about-image.png" alt="potrait-picture" />
+        </div>
+        <div class="about-text flex">
+          <h2>Saif Newaz</h2>
+          <div class="about-life">
+            <h3>About Life</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              voluptate perferendis cumque. A nihil voluptates molestiae
+              incidunt commodi dolorem aspernatur.
+            </p>
+          </div>
+          <div class="about-work">
+            <h3>About Work</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              voluptate perferendis cumque. A nihil voluptates molestiae
+              incidunt commodi dolorem aspernatur.
+            </p>
+          </div>
+          <div class="about-contact">
+            <h3>Get in touch</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              voluptate perferendis cumque. A nihil voluptates molestiae
+              incidunt commodi dolorem aspernatur.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="gallery" id="gallery">
+        <header class="gallery-head">
+          <h2>Quality Photography</h2>
+          <p>Photos I recenty took in my work.</p>
+        </header>
+        <img class="gallery1" src="/img/gallery-1.jpg" alt="man in suit" />
+        <img class="gallery2" src="/img/gallery-2.jpg" alt="lady in coat" />
+        <img class="gallery3" src="/img/gallery-3.jpg" alt="lady in t-shirt" />
+        <img class="gallery4" src="/img/gallery-4.jpg" alt="lady in jacket" />
+      </div>
+
+      <section class="contact" id="contact">
+        <div class="form-wrapper flex">
+          <h2>
+            Get in <br />
+            <span>touch.</span>
+          </h2>
+          <form action="https://formspree.io/f/maylpowv" method="POST">
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="_replyto" required />
+            <button value="Send" type="submit">Submit</button>
+          </form>
+        </div>
+        <img src="/img/contact-image.jpg" alt="elena-joy" />
+      </section>
     </main>
+    <footer>
+      <h4>Saif Newaz&copy; 2020</h4>
+      <ul>
+        <li>
+          <a href="https://www.facebook.com/Saif.Newaz" target="_blank"
+            ><img src="/icons/facebook-logo.svg" alt="Saif on Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/Saif.Newaz" target="_blank"
+            ><img src="/icons/instagram.svg" alt="Saif on Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://github.com/Saif-Newaz" target="_blank"
+            ><img src="/icons/github.svg" alt="Saif on Github"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="/app.js"></script>
   </body>
 </html>
